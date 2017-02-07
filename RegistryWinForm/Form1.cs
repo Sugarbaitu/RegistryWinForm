@@ -23,7 +23,7 @@ namespace RegistryWinForm
         {
             if (String.IsNullOrEmpty(txtSN.Text))
             {
-                MessageBox.Show("请输入需要注册的SN号");
+                MessageBox.Show(@"请输入需要注册的SN号");
                 return;
             }
 
@@ -43,14 +43,14 @@ namespace RegistryWinForm
         {
             string[] subkeyNames;
             RegistryKey hkml = Registry.LocalMachine;
-            RegistryKey software = hkml.OpenSubKey("software\\IBAS3");
+            RegistryKey software = hkml.OpenSubKey("SOFTWARE\\AwareTec\\AwareTag");
             if (software!=null)
             {
                 subkeyNames = software.GetValueNames();
                 //取得该项下所有键值的名称的序列，并传递给预定的数组中
                 foreach (string keyName in subkeyNames)
                 {
-                    if (keyName == "ibas3") //判断键值的名称
+                    if (keyName == "MachineSN") //判断键值的名称
                     {
                         hkml.Close();
                         return true;
@@ -69,9 +69,9 @@ namespace RegistryWinForm
         private void RegeditItem()
         {
             RegistryKey key = Registry.LocalMachine;
-            RegistryKey software = key.CreateSubKey("software\\IBAS3");
-            RegistryKey software1 = key.OpenSubKey("software\\IBAS3", true); //该项必须已存在
-            software1.SetValue("ibas3", txtSN.Text);
+            RegistryKey software = key.CreateSubKey("SOFTWARE\\AwareTec\\AwareTag");
+            RegistryKey software1 = key.OpenSubKey("SOFTWARE\\AwareTec\\AwareTag", true); //该项必须已存在
+            software1.SetValue("MachineSN", txtSN.Text);
             key.Close();
         }
 
@@ -92,14 +92,14 @@ namespace RegistryWinForm
         {
             RegistryKey Key;
             Key = Registry.LocalMachine;
-            var myreg = Key.OpenSubKey("software\\IBAS3");
+            var myreg = Key.OpenSubKey("SOFTWARE\\AwareTec\\AwareTag");
             if (myreg == null)
             {
                 MessageBox.Show(@"未注册");
             }
             else
             {
-                var regValue = myreg.GetValue("ibas3");
+                var regValue = myreg.GetValue("MachineSN");
                 if (regValue == null)
                 {
                     myreg.Close();
@@ -107,7 +107,7 @@ namespace RegistryWinForm
                 }
                 else
                 {
-                    MessageBox.Show(myreg.GetValue("ibas3").ToString());
+                    MessageBox.Show(myreg.GetValue("MachineSN").ToString());
                   
                 }
             }

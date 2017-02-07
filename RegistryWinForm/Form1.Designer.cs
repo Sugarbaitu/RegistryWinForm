@@ -38,9 +38,9 @@
             // 
             this.button1.Location = new System.Drawing.Point(29, 63);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(90, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "注册";
+            this.button1.Text = "注册[Enter]";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
