@@ -1,0 +1,8 @@
+D:\Project\RegistryWinForm\RegistryWinForm\bin\x64\Debug\RegistryWinForm.exe.config
+D:\Project\RegistryWinForm\RegistryWinForm\bin\x64\Debug\RegistryWinForm.exe
+D:\Project\RegistryWinForm\RegistryWinForm\bin\x64\Debug\RegistryWinForm.pdb
+D:\Project\RegistryWinForm\RegistryWinForm\obj\x64\Debug\RegistryWinForm.Form1.resources
+D:\Project\RegistryWinForm\RegistryWinForm\obj\x64\Debug\RegistryWinForm.Properties.Resources.resources
+D:\Project\RegistryWinForm\RegistryWinForm\obj\x64\Debug\RegistryWinForm.csproj.GenerateResource.Cache
+D:\Project\RegistryWinForm\RegistryWinForm\obj\x64\Debug\RegistryWinForm.exe
+D:\Project\RegistryWinForm\RegistryWinForm\obj\x64\Debug\RegistryWinForm.pdb

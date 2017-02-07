@@ -1,0 +1,12 @@
+D:\Project\RegistryWinForm\RegistryWinForm\bin\Debug\RegistryWinForm.exe.config
+D:\Project\RegistryWinForm\RegistryWinForm\bin\Debug\RegistryWinForm.exe
+D:\Project\RegistryWinForm\RegistryWinForm\bin\Debug\RegistryWinForm.pdb
+D:\Project\RegistryWinForm\RegistryWinForm\obj\Debug\RegistryWinForm.Form1.resources
+D:\Project\RegistryWinForm\RegistryWinForm\obj\Debug\RegistryWinForm.Properties.Resources.resources
+D:\Project\RegistryWinForm\RegistryWinForm\obj\Debug\RegistryWinForm.csproj.GenerateResource.Cache
+D:\Project\RegistryWinForm\RegistryWinForm\obj\Debug\RegistryWinForm.exe
+D:\Project\RegistryWinForm\RegistryWinForm\obj\Debug\RegistryWinForm.pdb
+D:\Project\RegistryWinForm\RegistryWinForm\obj\Debug\RegistryWinForm.csprojResolveAssemblyReference.cache
+D:\Project\Registry\RegistryWinForm\bin\Debug\RegistryWinForm.exe.config
+D:\Project\Registry\RegistryWinForm\obj\Debug\RegistryWinForm.exe
+D:\Project\Registry\RegistryWinForm\obj\Debug\RegistryWinForm.pdb
