@@ -13,6 +13,9 @@ namespace RegistryWinForm
 {
     public partial class Form1 : Form
     {
+        /// <summary>
+        /// 测试
+        /// </summary>
         public Form1()
         {
             InitializeComponent();

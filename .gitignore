@@ -3,3 +3,5 @@
 ################################################################################
 
 /RegistryWinForm/obj/x64/Debug
+/RegistryWinForm/obj/x64/Release
+/.vs
